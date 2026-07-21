@@ -1,0 +1,23 @@
+This is the exact same issue as before! Your local branch is named master but you're trying to push to main. Your terminal prompt shows (master) – that's your clue.
+
+🔧 Quick Fix
+rename your local branch to match (then push normally):
+
+bash
+git branch -m master main
+git push -u origin main
+📝 Why This Happens
+Your local repository created the branch as master (older Git default)
+
+Your new GitHub repository Estora-chatbot-backend was created with main as the default (newer standard)
+
+They don't match, so Git can't connect them
+
+✅ After You Fix It
+One of these commands will work. Then your chatbot-backend code will be on GitHub, and you can use the normal workflow:
+
+bash
+git add .
+git commit -m "Update chatbot backend"
+git push
+Try the first command (git push -u origin master:main) – it's the quickest. Let me know what output you get!
