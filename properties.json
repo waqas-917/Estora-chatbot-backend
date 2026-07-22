@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "Luxury Downtown Penthouse",
+        "property_type": "Apartment",
+        "price": 850000,
+        "location": "123 Main St, Downtown",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "sqft": 2200,
+        "description": "Stunning penthouse with panoramic city views",
+        "features": ["Balcony", "Pool", "Security"],
+        "status": "Available"
+    },
+    {
+        "id": 2,
+        "title": "Cozy Family Home",
+        "property_type": "House",
+        "price": 550000,
+        "location": "456 Oak Ave",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "sqft": 1800,
+        "description": "Charming home with spacious backyard",
+        "features": ["Backyard", "Garage"],
+        "status": "Available"
+    }
+]

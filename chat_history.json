@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2026-07-22T05:54:35.581814",
+    "question": "What properties are available?",
+    "answer": "Based on the provided context, the following properties are available:\n\n1. **Luxury Downtown Penthouse** (Property ID: 1)\n   - **Type:** Apartment\n   - **Price:** $850,000\n   - **Location:** 123 Main St, Downtown\n   - **Bedrooms:** 3\n   - **Bathrooms:** 2.5\n   - **Square Feet:** 2200\n   - **Features:** Balcony, Pool, Security\n\n2. **Cozy Family Home** (Property ID: 2)\n   - **Type:** House\n   - **Price:** $550,000\n   - **Location:** 456 Oak Ave\n   - **Bedrooms:** 4\n   - **Bathrooms:** 2\n   - **Square Feet:** 1800\n   - **Features:** Backyard, Garage"
+  },
+  {
+    "timestamp": "2026-07-22T06:18:15.902454",
+    "question": "hi",
+    "answer": "I don't know."
+  },
+  {
+    "timestamp": "2026-07-22T06:18:31.403820",
+    "question": "How are you",
+    "answer": "I don't know."
+  },
+  {
+    "timestamp": "2026-07-22T16:03:56.219337",
+    "question": "Hi",
+    "answer": "Hello! How can I help you today? Are you looking for a new home, or do you have any questions I can assist you with?"
+  },
+  {
+    "timestamp": "2026-07-22T16:05:01.534190",
+    "question": "I am looking for properties in ohio. what options are available?",
+    "answer": "I don't know."
+  },
+  {
+    "timestamp": "2026-07-22T16:05:44.544564",
+    "question": "show me some propoerties",
+    "answer": "Here are the available properties from the listings:\n\n**1. Luxury Downtown Penthouse**\n* **Type:** Apartment\n* **Price:** $850,000\n* **Location:** 123 Main St, Downtown\n* **Bedrooms:** 3\n* **Bathrooms:** 2.5\n* **Square Feet:** 2200\n* **Description:** Stunning penthouse with panoramic city views\n* **Features:** Balcony, Pool, Security\n* **Status:** Available\n\n**2. Cozy Family Home**\n* **Type:** House\n* **Price:** $550,000\n* **Location:** 456 Oak Ave\n* **Bedrooms:** 4\n* **Bathrooms:** 2\n* **Square Feet:** 1800\n* **Description:** Charming home with spacious backyard\n* **Features:** Backyard, Garage\n* **Status:** Available"
+  }
+]
