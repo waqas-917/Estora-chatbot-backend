@@ -35,6 +35,16 @@ class ChatResponse(BaseModel):
     status: str
 
 
+@app.get("/properties")
+@app.get("/api/properties")
+async def get_properties():
+    """Get all properties for frontend"""
+    from db import get_db
+    db = get_db()
+    properties = list(db.properties.find({}, {"_id": 0}))
+    return properties
+
+
 @app.get("/")
 async def root():
     return {

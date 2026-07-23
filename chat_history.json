@@ -28,5 +28,25 @@
     "timestamp": "2026-07-22T16:05:44.544564",
     "question": "show me some propoerties",
     "answer": "Here are the available properties from the listings:\n\n**1. Luxury Downtown Penthouse**\n* **Type:** Apartment\n* **Price:** $850,000\n* **Location:** 123 Main St, Downtown\n* **Bedrooms:** 3\n* **Bathrooms:** 2.5\n* **Square Feet:** 2200\n* **Description:** Stunning penthouse with panoramic city views\n* **Features:** Balcony, Pool, Security\n* **Status:** Available\n\n**2. Cozy Family Home**\n* **Type:** House\n* **Price:** $550,000\n* **Location:** 456 Oak Ave\n* **Bedrooms:** 4\n* **Bathrooms:** 2\n* **Square Feet:** 1800\n* **Description:** Charming home with spacious backyard\n* **Features:** Backyard, Garage\n* **Status:** Available"
+  },
+  {
+    "timestamp": "2026-07-22T16:39:07.399442",
+    "question": "Hi",
+    "answer": "Hi there! How can I help you with your real estate needs today?"
+  },
+  {
+    "timestamp": "2026-07-23T16:47:07.395858",
+    "question": "Hi",
+    "answer": "Hello! How can I help you with your property search today?"
+  },
+  {
+    "timestamp": "2026-07-23T16:48:05.480821",
+    "question": "Give me all propertues with 3 bedrooms",
+    "answer": "Based on the provided properties, here are all the listings that have 3 bedrooms:\n\n*   **Property ID: 1**\n    *   **Title:** Luxury Downtown Penthouse\n    *   **Type:** Apartment\n    *   **Price:** $850,000\n    *   **Location:** 123 Main St, Downtown\n    *   **Bedrooms:** 3\n    *   **Bathrooms:** 2.5\n    *   **Square Feet:** 2200\n    *   **Description:** Stunning penthouse with panoramic city views and modern finishes\n    *   **Features:** Balcony, Pool, Security, Elevator\n\n*   **Property ID: 23**\n    *   **Title:** Modern Minimalist House\n    *   **Type:** House\n    *   **Price:** $780,000\n    *   **Location:** 234 Modern Way, Tech District\n    *   **Bedrooms:** 3\n    *   **Bathrooms:** 2.5\n    *   **Square Feet:** 2000\n    *   **Description:** Architectural masterpiece with clean lines and open spaces\n    *   **Features:** Open Plan, Large Windows, Minimalist Design, Garden\n\n*   **Property ID: 27**\n    *   **Title:** Eco-friendly House\n    *   **Type:** House\n    *   **Price:** $620,000\n    *   **Location:** 123 Green Earth Blvd, Eco Community\n    *   **Bedrooms:** 3\n    *   **Bathrooms:** 2\n    *   **Square Feet:** 1800\n    *   **Description:** Sustainable house with solar panels and green roof\n    *   **Features:** Solar Panels, Green Roof, Rainwater Harvesting, Energy Efficient\n\n*   **Rustic Cabin (No Property ID specified in context)**\n    *   **Price:** $380,000\n    *   **Location:** 789 Pine Ridge, Mountain Valley\n    *   **Bedrooms:** 3\n    *   **Bathrooms:** 2\n    *   **Square Feet:** 1500\n    *   **Description:** Rustic cabin with breathtaking mountain views and fireplace\n    *   **Features:** Fireplace, Mountain View, Deck, Hiking Trails"
+  },
+  {
+    "timestamp": "2026-07-23T16:58:34.014472",
+    "question": "Hello",
+    "answer": "Hello there! It is wonderful to meet you. Welcome to our real estate service. \n\nI would love to help you find your perfect home today. Before we get started, could you please share your email address with me? This will allow me to send you details of any properties you like and keep in touch for future follow-ups.\n\nOnce you share that, please let me know what kind of property you are looking for!"
   }
 ]

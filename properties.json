@@ -2,27 +2,854 @@
     {
         "id": 1,
         "title": "Luxury Downtown Penthouse",
+        "images": [
+            "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd"
+        ],
         "property_type": "Apartment",
         "price": 850000,
         "location": "123 Main St, Downtown",
         "bedrooms": 3,
         "bathrooms": 2.5,
         "sqft": 2200,
-        "description": "Stunning penthouse with panoramic city views",
-        "features": ["Balcony", "Pool", "Security"],
+        "description": "Stunning penthouse with panoramic city views and modern finishes",
+        "features": [
+            "Balcony",
+            "Pool",
+            "Security",
+            "Elevator"
+        ],
         "status": "Available"
     },
     {
         "id": 2,
-        "title": "Cozy Family Home",
+        "title": "Cozy Family Home with Garden",
+        "images": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+        ],
         "property_type": "House",
         "price": 550000,
-        "location": "456 Oak Ave",
+        "location": "456 Oak Ave, Suburb Heights",
         "bedrooms": 4,
         "bathrooms": 2,
         "sqft": 1800,
-        "description": "Charming home with spacious backyard",
-        "features": ["Backyard", "Garage"],
+        "description": "Charming family home with spacious backyard and fireplace",
+        "features": [
+            "Backyard",
+            "Garage",
+            "Fireplace",
+            "Hardwood Floors"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 3,
+        "title": "Modern Studio in City Center",
+        "images": [
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+        ],
+        "property_type": "Studio",
+        "price": 320000,
+        "location": "789 Business Blvd, City Center",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 650,
+        "description": "Contemporary studio ideal for young professionals",
+        "features": [
+            "Furnished",
+            "High Speed Internet",
+            "Laundry"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 4,
+        "title": "Beachfront Villa with Pool",
+        "images": [
+            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+        ],
+        "property_type": "Villa",
+        "price": 1200000,
+        "location": "456 Ocean Dr, Beachside",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "sqft": 3200,
+        "description": "Luxurious beachfront villa with infinity pool and ocean views",
+        "features": [
+            "Pool",
+            "Beach Access",
+            "Smart Home",
+            "Ocean View"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 5,
+        "title": "Downtown Loft with Exposed Brick",
+        "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "property_type": "Loft",
+        "price": 475000,
+        "location": "1010 Industrial Way, Arts District",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "sqft": 1400,
+        "description": "Artistic loft with exposed brick walls and high ceilings",
+        "features": [
+            "Exposed Brick",
+            "High Ceilings",
+            "Open Floor Plan"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 6,
+        "title": "Mountain View Cabin",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Cabin",
+        "price": 380000,
+        "location": "789 Pine Ridge, Mountain Valley",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1500,
+        "description": "Rustic cabin with breathtaking mountain views and fireplace",
+        "features": [
+            "Fireplace",
+            "Mountain View",
+            "Deck",
+            "Hiking Trails"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 7,
+        "title": "Urban Condo with Rooftop",
+        "images": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+        ],
+        "property_type": "Condo",
+        "price": 620000,
+        "location": "234 Skyline Ave, Uptown",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1100,
+        "description": "Modern condo with rooftop access and skyline views",
+        "features": [
+            "Rooftop",
+            "Gym",
+            "Concierge",
+            "Parking"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 8,
+        "title": "Lakefront Estate",
+        "images": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        ],
+        "property_type": "Estate",
+        "price": 2500000,
+        "location": "123 Lakeshore Dr, Lakewood",
+        "bedrooms": 6,
+        "bathrooms": 5.5,
+        "sqft": 5000,
+        "description": "Grand estate with private lake access and dock",
+        "features": [
+            "Lake Access",
+            "Dock",
+            "Guest House",
+            "Tennis Court"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 9,
+        "title": "Garden Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+        ],
+        "property_type": "Apartment",
+        "price": 425000,
+        "location": "567 Green St, Garden District",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "sqft": 950,
+        "description": "Beautiful apartment with private garden entrance",
+        "features": [
+            "Private Garden",
+            "Patio",
+            "Original Details"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 10,
+        "title": "Historic Victorian House",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+        ],
+        "property_type": "House",
+        "price": 725000,
+        "location": "789 Heritage Ln, Historic District",
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "sqft": 2800,
+        "description": "Restored Victorian home with original woodwork and charm",
+        "features": [
+            "Original Woodwork",
+            "Porch",
+            "Bay Windows",
+            "Garden"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 11,
+        "title": "Minimalist City Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+        ],
+        "property_type": "Apartment",
+        "price": 395000,
+        "location": "345 Urban Ave, Midtown",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 750,
+        "description": "Sleek minimalist apartment in the heart of the city",
+        "features": [
+            "Minimalist",
+            "Large Windows",
+            "Walk-in Closet"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 12,
+        "title": "Countryside Farmhouse",
+        "images": [
+            "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+        ],
+        "property_type": "Farmhouse",
+        "price": 480000,
+        "location": "123 Rural Rd, Countryside",
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "sqft": 2400,
+        "description": "Charming farmhouse with acres of land and barn",
+        "features": [
+            "Barn",
+            "Land",
+            "Vegetable Garden",
+            "Fireplace"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 13,
+        "title": "Skyrise Luxury Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "property_type": "Apartment",
+        "price": 950000,
+        "location": "567 Heights Blvd, Skyline District",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "sqft": 2000,
+        "description": "Luxury apartment on the 40th floor with stunning views",
+        "features": [
+            "Floor-to-ceiling Windows",
+            "Pool",
+            "Gym",
+            "Concierge"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 14,
+        "title": "Beach Bungalow",
+        "images": [
+            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+        ],
+        "property_type": "Bungalow",
+        "price": 520000,
+        "location": "789 Surf Ave, Beach Town",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1100,
+        "description": "Cozy beach bungalow just steps from the sand",
+        "features": [
+            "Beach Access",
+            "Deck",
+            "Outdoor Shower"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 15,
+        "title": "Modern Townhouse",
+        "images": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+        ],
+        "property_type": "Townhouse",
+        "price": 680000,
+        "location": "234 Brick Ln, Town Center",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "sqft": 1700,
+        "description": "Contemporary townhouse with rooftop terrace",
+        "features": [
+            "Rooftop Terrace",
+            "Open Plan",
+            "Parking"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 16,
+        "title": "Forest Retreat",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Cabin",
+        "price": 350000,
+        "location": "123 Woodland Dr, Forest Hills",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "sqft": 1200,
+        "description": "Peaceful cabin surrounded by forest with stream",
+        "features": [
+            "Stream",
+            "Hiking Trails",
+            "Fireplace",
+            "Deck"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 17,
+        "title": "Riverside Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+        ],
+        "property_type": "Apartment",
+        "price": 440000,
+        "location": "456 River Rd, Riverside",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1000,
+        "description": "Bright apartment with river views and balcony",
+        "features": [
+            "River View",
+            "Balcony",
+            "Exercise Room"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 18,
+        "title": "Grand Colonial Mansion",
+        "images": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        ],
+        "property_type": "Mansion",
+        "price": 3200000,
+        "location": "123 Estate Dr, Prestigious Hills",
+        "bedrooms": 7,
+        "bathrooms": 6.5,
+        "sqft": 8500,
+        "description": "Magnificent colonial mansion with ballroom and gardens",
+        "features": [
+            "Ballroom",
+            "Formal Gardens",
+            "Pool",
+            "Tennis Court"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 19,
+        "title": "City Loft with Workspace",
+        "images": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+        ],
+        "property_type": "Loft",
+        "price": 510000,
+        "location": "789 Creative Way, Design District",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1600,
+        "description": "Versatile loft perfect for living and working",
+        "features": [
+            "Workspace",
+            "High Ceilings",
+            "Natural Light"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 20,
+        "title": "Sunset View Villa",
+        "images": [
+            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+        ],
+        "property_type": "Villa",
+        "price": 1800000,
+        "location": "456 Sunset Blvd, Hillside",
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 2800,
+        "description": "Elegant villa with breathtaking sunset views",
+        "features": [
+            "Sunset View",
+            "Pool",
+            "Terraced Garden",
+            "Guest Suite"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 21,
+        "title": "Penthouse with Rooftop Pool",
+        "images": [
+            "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd"
+        ],
+        "property_type": "Penthouse",
+        "price": 1600000,
+        "location": "999 Skyline Pkwy, Downtown",
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 3500,
+        "description": "Spectacular penthouse with private rooftop pool and city views",
+        "features": [
+            "Rooftop Pool",
+            "City Views",
+            "Private Elevator",
+            "Smart Home"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 22,
+        "title": "Charming Cottage",
+        "images": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+        ],
+        "property_type": "Cottage",
+        "price": 390000,
+        "location": "123 Garden Ln, Village",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "sqft": 1000,
+        "description": "Quaint cottage with flower garden and picket fence",
+        "features": [
+            "Flower Garden",
+            "Picket Fence",
+            "Fireplace",
+            "Porch"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 23,
+        "title": "Modern Minimalist House",
+        "images": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        ],
+        "property_type": "House",
+        "price": 780000,
+        "location": "234 Modern Way, Tech District",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "sqft": 2000,
+        "description": "Architectural masterpiece with clean lines and open spaces",
+        "features": [
+            "Open Plan",
+            "Large Windows",
+            "Minimalist Design",
+            "Garden"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 24,
+        "title": "Oceanfront Duplex",
+        "images": [
+            "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+        ],
+        "property_type": "Duplex",
+        "price": 980000,
+        "location": "345 Ocean Blvd, Beachfront",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "sqft": 2300,
+        "description": "Stunning duplex with panoramic ocean views and direct beach access",
+        "features": [
+            "Ocean Views",
+            "Beach Access",
+            "Balcony",
+            "Parking"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 25,
+        "title": "Suburban Family Home",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+        ],
+        "property_type": "House",
+        "price": 495000,
+        "location": "567 Meadow Ln, Suburbia",
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "sqft": 2100,
+        "description": "Spacious family home with large backyard and playground",
+        "features": [
+            "Backyard",
+            "Playground",
+            "Garage",
+            "Fireplace"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 26,
+        "title": "Art Deco Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+        ],
+        "property_type": "Apartment",
+        "price": 460000,
+        "location": "789 Art Deco Ave, Historic District",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1200,
+        "description": "Stylish art deco apartment with original features",
+        "features": [
+            "Art Deco Details",
+            "High Ceilings",
+            "Crown Molding"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 27,
+        "title": "Eco-friendly House",
+        "images": [
+            "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+        ],
+        "property_type": "House",
+        "price": 620000,
+        "location": "123 Green Earth Blvd, Eco Community",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1800,
+        "description": "Sustainable house with solar panels and green roof",
+        "features": [
+            "Solar Panels",
+            "Green Roof",
+            "Rainwater Harvesting",
+            "Energy Efficient"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 28,
+        "title": "Hilltop Retreat",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Retreat",
+        "price": 550000,
+        "location": "456 Hilltop Dr, Mountain View",
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "sqft": 1900,
+        "description": "Peaceful hilltop retreat with panoramic valley views",
+        "features": [
+            "Valley Views",
+            "Deck",
+            "Fireplace",
+            "Meditation Space"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 29,
+        "title": "Luxury Beach Condo",
+        "images": [
+            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+        ],
+        "property_type": "Condo",
+        "price": 690000,
+        "location": "789 Shoreline Dr, Coast",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1300,
+        "description": "Luxury beachfront condo with resort-style amenities",
+        "features": [
+            "Beachfront",
+            "Pool",
+            "Spa",
+            "Fitness Center",
+            "Concierge"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 30,
+        "title": "Industrial Style Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+        ],
+        "property_type": "Apartment",
+        "price": 410000,
+        "location": "234 Factory Rd, Brewery District",
+        "bedrooms": 2,
+        "bathrooms": 1.5,
+        "sqft": 1100,
+        "description": "Industrial style apartment with concrete floors and large windows",
+        "features": [
+            "Concrete Floors",
+            "Exposed Ducts",
+            "Large Windows",
+            "Open Plan"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 31,
+        "title": "Mediterranean Villa",
+        "images": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        ],
+        "property_type": "Villa",
+        "price": 1900000,
+        "location": "567 Mediterranean Dr, Coastline",
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "sqft": 4200,
+        "description": "Elegant Mediterranean villa with courtyard and fountain",
+        "features": [
+            "Courtyard",
+            "Fountain",
+            "Pool",
+            "Terracotta Roof"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 32,
+        "title": "Garden Studio",
+        "images": [
+            "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+        ],
+        "property_type": "Studio",
+        "price": 280000,
+        "location": "123 Garden Path, Botanical District",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "sqft": 500,
+        "description": "Tranquil studio apartment overlooking botanical gardens",
+        "features": [
+            "Garden View",
+            "Private Entrance",
+            "Patio"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 33,
+        "title": "Modern Loft with Terrace",
+        "images": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+        ],
+        "property_type": "Loft",
+        "price": 540000,
+        "location": "567 Modern Ln, Creative District",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1500,
+        "description": "Contemporary loft with spacious terrace and city views",
+        "features": [
+            "Terrace",
+            "City Views",
+            "Open Plan",
+            "High Ceilings"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 34,
+        "title": "Secluded Forest Cabin",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Cabin",
+        "price": 320000,
+        "location": "456 Forest Trail, Woodland",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "sqft": 900,
+        "description": "Secluded cabin perfect for nature lovers and digital nomads",
+        "features": [
+            "Forest Views",
+            "Fireplace",
+            "Hiking Trails",
+            "Stream"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 35,
+        "title": "Luxury Golf Course Home",
+        "images": [
+            "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        ],
+        "property_type": "House",
+        "price": 850000,
+        "location": "789 Fairway Dr, Golf Estates",
+        "bedrooms": 4,
+        "bathrooms": 3.5,
+        "sqft": 3100,
+        "description": "Beautiful home overlooking the golf course with resort amenities",
+        "features": [
+            "Golf Course View",
+            "Pool",
+            "Tennis Court",
+            "Clubhouse"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 36,
+        "title": "Victorian Apartment",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83"
+        ],
+        "property_type": "Apartment",
+        "price": 430000,
+        "location": "123 Victorian St, Heritage Area",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "sqft": 1150,
+        "description": "Graceful Victorian apartment with original features and charm",
+        "features": [
+            "Bay Windows",
+            "Original Fireplace",
+            "High Ceilings",
+            "Balcony"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 37,
+        "title": "Contemporary Penthouse",
+        "images": [
+            "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd"
+        ],
+        "property_type": "Penthouse",
+        "price": 1450000,
+        "location": "456 Sky Tower, Financial District",
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "sqft": 2800,
+        "description": "Contemporary penthouse with panoramic city views and smart home tech",
+        "features": [
+            "Smart Home",
+            "City Views",
+            "Private Elevator",
+            "Rooftop Garden"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 38,
+        "title": "Wine Country Estate",
+        "images": [
+            "https://images.unsplash.com/photo-1500382017468-9049fed747ef"
+        ],
+        "property_type": "Estate",
+        "price": 2800000,
+        "location": "789 Vineyard Ln, Wine Country",
+        "bedrooms": 5,
+        "bathrooms": 4.5,
+        "sqft": 4800,
+        "description": "Magnificent estate with private vineyard and tasting room",
+        "features": [
+            "Vineyard",
+            "Tasting Room",
+            "Pool",
+            "Gardens",
+            "Guest House"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 39,
+        "title": "Yoga Retreat Studio",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Studio",
+        "price": 310000,
+        "location": "234 Peaceful Ln, Wellness Valley",
+        "bedrooms": 1,
+        "bathrooms": 1.5,
+        "sqft": 800,
+        "description": "Peaceful studio designed for wellness and meditation",
+        "features": [
+            "Meditation Space",
+            "Yoga Deck",
+            "Garden",
+            "Mountain View"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 40,
+        "title": "Urban Garden House",
+        "images": [
+            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6"
+        ],
+        "property_type": "House",
+        "price": 590000,
+        "location": "567 Green Ave, City Garden District",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "sqft": 1600,
+        "description": "Urban house with extensive garden and city convenience",
+        "features": [
+            "Garden",
+            "Patio",
+            "Parking",
+            "Workshop"
+        ],
+        "status": "Available"
+    },
+    {
+        "id": 41,
+        "title": "Ski Chalet",
+        "images": [
+            "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+        ],
+        "property_type": "Chalet",
+        "price": 720000,
+        "location": "123 Snowy Peak Rd, Mountain Resort",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "sqft": 2200,
+        "description": "Cozy ski chalet with fireplace and ski-in/ski-out access",
+        "features": [
+            "Fireplace",
+            "Ski-in/Ski-out",
+            "Mountain Views",
+            "Hot Tub"
+        ],
         "status": "Available"
     }
 ]

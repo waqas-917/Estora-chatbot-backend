@@ -12,13 +12,16 @@ from db import fetch_chat_history
 
 load_dotenv()
 
-# 1. LOAD PROPERTIES FROM JSON FILE 
-def load_properties(json_file="properties.json"):
+# 1. LOAD PROPERTIES FROM MONGODB
+from db import get_db
+
+def load_properties_from_db():
+    """Load properties from MongoDB"""
     try:
-        with open(json_file, 'r') as f:
-            properties = json.load(f)
+        db = get_db()
+        properties = list(db.properties.find({}, {"_id": 0}))
         
-        # Convert properties to plain text
+        # Convert to plain text for RAG
         property_texts = []
         for prop in properties:
             text = f"""
@@ -36,18 +39,21 @@ Status: {prop.get('status', 'N/A')}
 """
             property_texts.append(text)
         
-        plain_properties = " ".join(property_texts)
-        return plain_properties
-        
-    except FileNotFoundError:
-        print("Properties file not found")
+        return " ".join(property_texts)
+    except Exception as e:
+        print(f"❌ Error loading properties from DB: {e}")
         return ""
 
+# Load property data from MongoDB
+property_data = load_properties_from_db()
+print(f"Loaded properties from MongoDB")
+
+
 # Load property data
-property_data = load_properties("properties.json")
+property_data = load_properties_from_db()
 # print(property_data)
 
-# 2. CHUNKING (same as your code)
+# 2. CHUNKING 
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=900,
     chunk_overlap=100,
@@ -104,11 +110,20 @@ def add_to_history(question, answer):
 # Load existing history
 load_history()
 
-# 6. AUGMENTATION (modified to include history)
+# 6. AUGMENTATION 
 chat_model = ChatGoogleGenerativeAI(model='gemini-3.5-flash')
 
 prompt = PromptTemplate(
-    template="""You are a helpful real estate assistant. If the customer is in coversation mode, chat with them. But if they ask about properties, answer ONLY from the provided property context. If the context is insufficient, just say you don't know.
+    template="""You are a helpful real estate assistant. 
+
+    IMPORTANT INSTRUCTIONS:
+    - Evertime the customer intiates a new conversation, greet them. and take their email address for future follow-ups.
+    - Respond in PLAIN TEXT only - NO markdown formatting (no **, *, #, -, etc.)
+    - Use simple formatting like numbered lists or line breaks for readability
+    - Be conversational and friendly
+    - If the customer is in conversation mode, chat with them naturally
+    - If they ask about properties, answer ONLY from the provided property context
+    - If the context is insufficient, just say "I don't have that information available"
 
     Previous conversation: {history}
 
